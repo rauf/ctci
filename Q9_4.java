@@ -10,7 +10,6 @@ class Q9_4 {
 		return sets;
 	}
 
-
 	ArrayList<ArrayList<Integer>> sets = getSubsets(list, n - 1);
 
 	int length = sets.size();
